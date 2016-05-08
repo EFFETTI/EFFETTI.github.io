@@ -1,0 +1,213 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)*/
+
+
+html
+    html {
+      height: 100%;
+    }
+    body {
+      padding-left: 5%;
+      padding-right: auto;
+      height: 100%;
+      background-color:#;
+    }
+    h1 {
+      color: #000000;
+      text-shadow: 2px 2px 2px #1C5E8C;
+    }
+    h2 {
+      color: #000000;
+      text-shadow: 2px 2px 2px #1C5E8C;
+      text-decoration: underline;
+    }
+    h3 {
+      color: #1C5E8C;
+      text-shadow: 2px 2px 2px #6BA600;
+      text-decoration:none;
+      padding-left:20px;
+      padding-top:20px;
+    }
+    h4 {
+      color: #1C5E8C;
+      text-shadow: 2px 2px 2px #6BA600;
+      float:none;
+    }
+    hr{
+      margin-top: 40px;
+
+    }
+    p {
+      color: #000000;
+      text-shadow: 2px 2px 2px #1C5E8C;
+    }
+    li {
+      color: #000000;
+      text-shadow: 2px 2px 2px #1C5E8C;
+    }
+    header {
+        background-color:#;
+        padding:5px;
+        font-size: 30;
+        display: block;
+        width:100%;
+    }
+    label {
+      display:block;
+      font-size: small;
+      text-align: center;
+    }
+    .loop {
+        background-color:#;
+        height: auto;
+        width: 100%;
+        padding-left:1%px;
+        font-size: 30;
+        display: block;
+    }
+    .container {
+        width:160px;
+        height:150px;
+        padding-left:2%;
+        Padding-right:auto;
+        display:inline-block;
+    }
+    cos.container {
+
+    }
+    .divider{
+      width:100%;
+      height: auto;
+    }
+    .id_fields{
+      postion: relative;
+    }
+    .cp_company {
+      position:absolute;
+      top:25%
+      width:150px;
+      height:30px;
+      margin-bottom: 40px;
+      overflow: auto;
+      font-family: sans-serif;
+      font-size: small;
+      color: #000000;
+    }
+  }
+  .cust_name {
+    display:inline-block;
+    width:150px;
+    height:30px;
+    margin-bottom: 40px;
+    overflow: auto;
+    font-family: sans-serif;
+    line-height: 1.7em;
+    color: #000000;
+  }
+    .bc-line{
+      display:inline-block;
+      width:100%;
+      margin-top:5px;
+    }
+    .cos {
+        display:inline-block;
+        width: 230px;
+        height: 150px;
+        border: 1px solid black;
+        overflow:auto;
+        font-family: sans-serif;
+        line-height: 1.7em;
+        color: #000000;
+    }
+    .loop-label{
+      padding-left: 420px;
+      padding-right: auto;
+      padding-top: 10px;
+      margin-top: 0px;
+      margin-bottom: 10px;
+    }
+    .loop-id{
+      width: 400px;
+      padding-left: 20px
+      padding-right:auto;
+      padding-top: 10px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .half-loop{
+    display:inline-block;
+    width: 72px;
+    height: 76px;
+   }
+   .quad-label{
+     display:inline-block;
+     margin:0;
+     padding-top: 0;
+
+   }
+   .footer-block{
+     display: inline-block;
+
+   }
+    nav {
+        line-height:;
+        background-color:#;
+        width:125px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: inline;
+    }
+    section {
+        width: 660px;
+        display: inline-block;
+    }
+    aside {
+      width: 125px;
+      display: inline-block;
+      vertical-align: top;
+      background-color:;
+      font-size: ;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        background-color:;
+        padding:5px;
+        font-size: smaller;
+    }
+    .navstyle {
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+           overflow: hidden;
+           background-color: #C0C0C0 ;
+       }
+    .navstyle   li {
+        float: left;
+    }
+
+    .navstyle li a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .navstyle li a:hover {
+        background-color: #1C8B85 ;
+    }
